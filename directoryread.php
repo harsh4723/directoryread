@@ -1,6 +1,6 @@
 
 <?php
-$dir = 'G:\sometext\\';
+$dir = 'G:\sometext\\';//directory name is "sometext".
 
 if (is_dir($dir)){
   if ($dh = opendir($dir)){    // to open a directory
